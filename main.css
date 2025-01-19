@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .hero-box1 {
+        @apply text-center text-2xl text-green font-bold;
+    }
+    .hero-box2 {
+        @apply text-center font-normal text-lg;
+    }
+}
